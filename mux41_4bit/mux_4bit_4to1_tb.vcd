@@ -1,0 +1,122 @@
+$date
+	Tue Jun 10 21:48:09 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module mux_4bit_4to1_tb $end
+$var wire 4 ! y [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$var reg 4 $ c [3:0] $end
+$var reg 4 % d [3:0] $end
+$var reg 2 & sel [1:0] $end
+$scope module dut $end
+$var wire 4 ' a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 4 ) c [3:0] $end
+$var wire 4 * d [3:0] $end
+$var wire 2 + sel [1:0] $end
+$var wire 4 , y [3:0] $end
+$var wire 4 - mux2_out [3:0] $end
+$var wire 4 . mux1_out [3:0] $end
+$scope module mux1 $end
+$var wire 4 / a [3:0] $end
+$var wire 4 0 b [3:0] $end
+$var wire 1 1 sel $end
+$var wire 4 2 y [3:0] $end
+$upscope $end
+$scope module mux2 $end
+$var wire 4 3 a [3:0] $end
+$var wire 4 4 b [3:0] $end
+$var wire 1 5 sel $end
+$var wire 4 6 y [3:0] $end
+$upscope $end
+$scope module mux3 $end
+$var wire 4 7 a [3:0] $end
+$var wire 4 8 b [3:0] $end
+$var wire 1 9 sel $end
+$var wire 4 : y [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 :
+09
+b100 8
+b1 7
+b100 6
+05
+b1000 4
+b100 3
+b1 2
+01
+b10 0
+b1 /
+b1 .
+b100 -
+b1 ,
+b0 +
+b1000 *
+b100 )
+b10 (
+b1 '
+b0 &
+b1000 %
+b100 $
+b10 #
+b1 "
+b1 !
+$end
+#10
+b10 !
+b10 ,
+b10 :
+b10 .
+b10 2
+b10 7
+b1000 -
+b1000 6
+b1000 8
+11
+15
+b1 &
+b1 +
+#20
+b1 .
+b1 2
+b1 7
+b100 -
+b100 6
+b100 8
+b100 !
+b100 ,
+b100 :
+01
+05
+19
+b10 &
+b10 +
+#30
+b1000 !
+b1000 ,
+b1000 :
+b10 .
+b10 2
+b10 7
+b1000 -
+b1000 6
+b1000 8
+11
+15
+b11 &
+b11 +
+#40
